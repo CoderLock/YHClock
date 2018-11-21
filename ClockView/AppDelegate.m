@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  YHClock
+//  ClockView
 //
-//  Created by 06care on 2018/7/25.
-//  Copyright © 2018年 ryan. All rights reserved.
+//  Created by 06care on 2018/11/21.
+//  Copyright © 2018 ryan. All rights reserved.
 //
 
 #import "AppDelegate.h"

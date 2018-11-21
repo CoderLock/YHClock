@@ -1,27 +1,25 @@
 //
-//  YHClockTests.m
-//  YHClockTests
+//  ClockViewTests.m
+//  ClockViewTests
 //
-//  Created by 06care on 2018/7/25.
-//  Copyright © 2018年 ryan. All rights reserved.
+//  Created by 06care on 2018/11/21.
+//  Copyright © 2018 ryan. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface YHClockTests : XCTestCase
+@interface ClockViewTests : XCTestCase
 
 @end
 
-@implementation YHClockTests
+@implementation ClockViewTests
 
 - (void)setUp {
-    [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
 }
 
 - (void)testExample {

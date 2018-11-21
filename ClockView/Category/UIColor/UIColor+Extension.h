@@ -1,6 +1,6 @@
 //
 //  UIColor+Extension.h
-//  Growth
+//  ClockView
 //
 //  Created by yuanheng on 2018/7/25.
 //  Copyright © 2017年 06care. All rights reserved.
@@ -10,8 +10,8 @@
 
 @interface UIColor (Extension)
 
-+ (UIColor *)colorWithRed:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue;
 + (UIColor *)colorWithHexString:(NSString *)color;
 + (UIColor *)colorWithHexString:(NSString *)color alpha:(CGFloat)alpha;
++ (UIColor *)colorWithRed:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue;
 
 @end

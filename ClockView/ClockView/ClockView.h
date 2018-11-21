@@ -1,6 +1,6 @@
 //
 //  YHDate.h
-//  YHClock
+//  ClockView
 //
 //  Created by yuanheng on 2018/7/25.
 //  Copyright © 2018年 ryan. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class YHClock;
+@class ClockView;
 
 /**
  转动指针时的代理方法
@@ -17,11 +17,11 @@
 
 @optional
 
-- (void)clock:(YHClock *)clock hours:(NSInteger)hours minutes:(NSInteger)minutes;
+- (void)clock:(ClockView *)clock hours:(NSInteger)hours minutes:(NSInteger)minutes;
 
 @end
 
-@interface YHClock : UIView
+@interface ClockView : UIView
 
 /** 设置时钟显示的时间, 默认为当前系统时间 */
 @property (nonatomic, strong) NSDate *date;

@@ -1,17 +1,17 @@
 //
 //  ViewController.m
-//  YHClock
+//  ClockView
 //
-//  Created by 06care on 2018/7/25.
-//  Copyright © 2018年 ryan. All rights reserved.
+//  Created by 06care on 2018/11/21.
+//  Copyright © 2018 ryan. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "YHClock.h"
+#import "ClockView.h"
 
 @interface ViewController () <YHClockDelegate>
 
-@property (nonatomic, strong) YHClock *clock;
+@property (nonatomic, strong) ClockView *clock;
 @property (nonatomic, strong) UILabel *label;
 
 @end
@@ -31,7 +31,7 @@
 
 #pragma mark -- YHClockDelegate
 
-- (void)clock:(YHClock *)clock hours:(NSInteger)hours minutes:(NSInteger)minutes
+- (void)clock:(ClockView *)clock hours:(NSInteger)hours minutes:(NSInteger)minutes
 {
     NSString *time = [NSString stringWithFormat:@"%ld : %02ld", hours, minutes];
     self.label.text = time;
@@ -39,9 +39,9 @@
 
 #pragma mark -- Getter
 
-- (YHClock *)clock {
+- (ClockView *)clock {
     if (!_clock) {
-        _clock = [[YHClock alloc] init];
+        _clock = [[ClockView alloc] init];
         _clock.delegate = self;
     }
     return _clock;

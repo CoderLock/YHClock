@@ -1,18 +1,18 @@
 //
 //  YHDate.h
-//  YHClock
+//  ClockView
 //
 //  Created by yuanheng on 2018/7/25.
 //  Copyright © 2018年 ryan. All rights reserved.
 //
 
-#import "YHClock.h"
+#import "ClockView.h"
 #import "NSDate+Extension.h"
 #import "UIColor+Extension.h"
 
 static const CGFloat kMargin = 8.0;
 
-@interface YHClock ()
+@interface ClockView ()
 
 /** 中心灰点 */
 @property (nonatomic, strong) CALayer *centerGrayDotLayer;
@@ -36,7 +36,7 @@ static const CGFloat kMargin = 8.0;
 
 @end
 
-@implementation YHClock
+@implementation ClockView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
